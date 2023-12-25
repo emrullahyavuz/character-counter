@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkcyan;
+}
+
+.characterContainer {
+    border: 1px solid black;
+    padding: 30px 20px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 600px;
+    
+    
+}
+.charTitle {
+    margin-bottom: 10px;
+}
+
+textarea {
+    border-radius: 20px;
+    padding: 20px;
+    resize: none;
+    width: 100%;
+    height: 180px;
+    outline: none;
+    font-size: 1.2rem;
+   
+}
+
+.charText {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 1.3rem;
+   gap: 15px;
+     
+}
+
+.sumChar {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.numChar {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
